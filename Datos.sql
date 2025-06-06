@@ -1,12 +1,7 @@
-INSERT INTO CLIENTES (
-    cliente_id 
-    nombre 
-    contacto 
-    direccion 
-) VALUES
-(1,'sara hernandez','315428569','calle 45')
-(2,'adrian farid ', ' 345856952', 'calle 34')
-(3,'nicolas sarmiento', '315985647','calle 65');
+INSERT INTO usuarios (nombre, telefono, direccion) VALUES
+('Esther Blanco', '318567551585', 'zona franca 58'),
+('Miguel Torres', '32225885564', 'calle # 12'),
+('Juan Quiroga', '3158469725', 'Cra 10 #45');
 
 
 INSERT INTO productos (nombre, tipo, tamano, precio_base) VALUES
