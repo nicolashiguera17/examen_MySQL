@@ -13,7 +13,7 @@ CREATE TABLE productos (
 producto_id INT AUTO_INCREMENT PRIMARY KEY,
 nombre VARCHAR(100) NOT NULL,
 tipo ENUM('Pizza', 'Bebida', 'Combo') NOT NULL,
-tamano ENUM('Pequeña', 'Mediana', 'Grande') DEFAULT NULL,
+tamaño ENUM('Pequeña', 'Mediana', 'Grande') DEFAULT NULL,
 precio_base DECIMAL(10,2) NOT NULL
 );
 
